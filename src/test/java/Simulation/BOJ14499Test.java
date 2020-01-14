@@ -6,15 +6,15 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class BOJ14499Test {
-	BOJ14499 boj14499;
+	Solving14499 solving14499;
 
 	@BeforeEach
 	void init() {
-		boj14499 = new BOJ14499();
+		solving14499 = new Solving14499();
 	}
 
 	@Test
 	void testSetMap() {
-		assertThrows(IllegalArgumentException.class, () -> boj14499.setMap(0, 21));
+		assertThrows(IllegalArgumentException.class, () -> solving14499.setMap(0, 21));
 	}
 }
